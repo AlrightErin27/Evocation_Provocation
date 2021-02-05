@@ -1,0 +1,51 @@
+body {
+  background-image: url("images/Screen\ Shot\ 2021-02-04\ at\ 3.16.13\ PM.png");
+  background-size: 100% 100%;
+}
+main {
+  background-color: rgba(119, 171, 75, 0.318);
+}
+.title_instructions {
+  text-align: center;
+  padding: 15px;
+  font-family: "Tangerine", cursive;
+  font-size: 40px;
+  color: black;
+}
+h1 {
+  font-size: 80px;
+  font-family: "UnifrakturCook", cursive;
+  color: rgb(51, 27, 58);
+  text-shadow: 2px 2px 8px #ff0000bc;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardsGrid {
+  display: flex;
+  flex-wrap: wrap;
+  height: 456px;
+  width: 456px;
+}
+.card {
+  height: 200px;
+  width: 200px;
+  border: 10px rgb(120, 18, 18) solid;
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "UnifrakturCook", cursive;
+  border-radius: 15%;
+  background-color: rgb(74, 9, 89);
+  margin: 4px;
+  border-style: outset;
+}
+p {
+  text-align: center;
+  font-family: "Tangerine", cursive;
+  font-size: 30px;
+  padding-bottom: 300px;
+}

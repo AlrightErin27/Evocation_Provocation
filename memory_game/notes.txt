@@ -1,0 +1,31 @@
+User Stories
+-cards shuffle
+-all cards start face down
+-there are 2 of every card face down
+
+-cards turn over when clicked
+    *only two cards can be turned over at a time
+    -flip over --- then flip another    
+-if the two cards match: they remain face up
+    *if no match they flip back to face down
+-keep playing until no cards remaining. 
+-track the games time-- if no win before timer ends (3mins) = you loose
+
+-No cards remaining display "You win!"
+
+---win or loose the game reshuffles
+
+MVP:
+flip a card face up
+flip another card face up
+----if match they stay face up. ---- if not they flip back down
+
+
+
+------------JS NOTES
+state to track:
+- how many turns have been played
+-how many cards have been flipped to make sure it hasn't gone beyond 2
+-which cards have been flipped in this round
+-which cards have been match successfully
+-list of all the face down cards values
